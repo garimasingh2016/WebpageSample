@@ -1,0 +1,172 @@
+/* ----------------------------------------------------- */
+/* GLOBAL  --------------------------------------------- */
+/* ----------------------------------------------------- */
+
+
+body {
+	background: #F7F5F2;
+    color: #222;
+	font-family: "Noto Serif", Georgia, serif;
+	font-size: 100%;
+	line-height: 1.5em;
+	margin: 0;
+    margin-top: 144px;
+}
+
+
+/* ----------------------------------------------------- */
+/* TYPOGRAPHY  ----------------------------------------- */
+/* ----------------------------------------------------- */
+
+  h1, h2, h3, h4, h5, nav {
+    font-family: "Noto Sans", Helvetica, Arial, sans-serif;
+    text-transform: uppercase;
+  }
+
+/* ----------------------------------------------------- */
+/* LINKS  ---------------------------------------------- */
+/* ----------------------------------------------------- */
+
+a, a:active, a:visited {
+	color: #4d717a;
+	text-decoration: none;
+}
+
+a:hover, a:focus {
+	color: #9cb89a;
+	text-decoration: none;
+}
+
+
+/* ----------------------------------------------------- */
+/* LAYOUT  --------------------------------------------- */
+/* ----------------------------------------------------- */
+
+.wrapper {
+    width: 80%;
+    margin: 0 auto;
+}
+
+    .wrapper:after {
+        content: "";
+        visibility: hidden;
+        display: block;
+        clear: both;
+    }
+
+
+.header {
+    background: #F7F5F2;
+    padding: 20px;
+    position: fixed;
+    width: 100%;
+    top: 0;
+    border-bottom: 1px solid #a8988b;
+    box-shadow: 0 1px 3px rgba(0,0,0,0.5);
+}
+
+    .header nav {
+        float: right;
+        margin-top: 40px;
+    }
+
+    .logo {
+        color: #555;
+        float: left;
+        text-indent: -9999em;
+        background: url(images/logo.png) no-repeat;
+        width: 170px;
+        height: 100px;
+        background-size: 100%;
+    }
+
+/* nav */
+nav a {
+    padding: 20px;
+}
+
+.banner {
+    background: #4d717a;
+    color: #fff;
+    background: url(images/banner_counter.png) no-repeat 0 -250px;
+    background-size: cover;
+    height: 520px;
+    padding: 120px 50px;
+
+}
+
+    .tagline {
+        font-size: 100px;
+        background: url(images/tagline.png) no-repeat 0 0;
+        text-indent: -9999em;
+        height: 130px;
+    }
+
+    .address {
+        font-size: 22px;
+        margin-left: 10px;
+        margin-top: 10px;
+        text-transform: uppercase;
+    }
+
+.about {
+    padding: 20px;
+}
+
+    .about h4 {
+        color: #a18c9c;
+        border-bottom: 1px solid #a8988b;
+    }
+
+    .about-left {
+        float: left;
+        width: 500px;
+    }
+
+    .about-right {
+        float: right;
+        width: 500px;
+    }
+
+.hoursdirections {
+    padding: 20px;
+    background: #ffffff;
+    color: #694160;
+    clear: both;
+    background: url(images/pattern.png);
+    margin-top: 100px;
+}
+
+    .map {
+        float: right;
+        height: 300px;
+    }
+
+    .hoursdirections .address {
+        width: 500px;
+        padding-top: 100px;
+        font-size: 30px;
+    }
+
+    .hours {
+        width: 400px;
+        padding-left: 10px;
+        margin-top: 10px;
+        font-size: 20px;
+    }
+
+.footer {
+    color: #694160;
+    padding: 50px;
+    background: #222 url(images/subtletexture.png) center center;
+}
+
+    .footer a {
+        color: #9cb89a;
+        text-decoration: none;
+    }
+
+    .footer a:hover {
+        color: #4d717a;
+        text-decoration: none;
+    }
